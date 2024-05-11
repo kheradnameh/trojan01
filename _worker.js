@@ -16,7 +16,7 @@ const worker_default = {
             if (!upgradeHeader || upgradeHeader !== "websocket") {
                 const url = new URL(request.url);
                 switch (url.pathname) {
-                    case "/tr":
+                    case "/tr01":
                         const host = request.headers.get('Host');
                         return new Response(`trojan://AlI3911500@${host}:443/?type=ws&host=${host}&security=tls`, {
                             status: 200,
