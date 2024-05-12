@@ -1,6 +1,6 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
-let sha224Password = '115521d3196ba979a3e0cb1c789e1f041540bb2ae9b6c47ed5c8d493';
+let sha224Password = '8f3218215851af9f0905498d8e694dd948429f115622af9a233f7e2e';
 let proxyIP = ['pa.alighadrboland.ir']; // const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
 const worker_default = {
     /**
@@ -18,7 +18,7 @@ const worker_default = {
                 switch (url.pathname) {
                     case "/tr01":
                         const host = request.headers.get('Host');
-                        return new Response(`trojan://AlI3911500@${host}:443/?type=ws&host=${host}&security=tls`, {
+                        return new Response(`trojan://BirdBox321@${host}:443/?type=ws&host=${host}&security=tls`, {
                             status: 200,
                             headers: {
                                 "Content-Type": "text/plain;charset=utf-8",
