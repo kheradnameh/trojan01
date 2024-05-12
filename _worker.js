@@ -1,6 +1,6 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
-let sha224Password = '156957625a7b5066506652d122fc157d667ba7ba8f6963ca2af71819';
+let sha224Password = '115521d3196ba979a3e0cb1c789e1f041540bb2ae9b6c47ed5c8d493';
 let proxyIP = ['pa.alighadrboland.ir']; // const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
 const worker_default = {
     /**
